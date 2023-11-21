@@ -44,7 +44,7 @@ assessmentButton.onclick = ()=> {
 
   anchor.setAttribute('href', hrefValue);
   anchor.setAttribute('class', 'twitter-hashtag-button');
-  anchor.setAttribute('data-text','result');
+  anchor.setAttribute('data-text',result);
   anchor.innerText = 'Tweet #あなたのいいところ';
 
   tweetDivision.appendChild(anchor);
